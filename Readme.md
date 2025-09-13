@@ -213,9 +213,8 @@ First-Year Computer Science Student | Newton School of Technology
 ## Contact & Links
 
 - **GitHub:** https://github.com/1-navneet
-- **LinkedIn:** [Your LinkedIn Profile]  
-- **Email:** [Your Email]
-- **Portfolio:** [Your Portfolio Website]
+- **LinkedIn:** https://linkedin.com/in/navneet-yadav-823640380
+- **Email:** navneet26022008@gmail.com
 
 ## License
 
