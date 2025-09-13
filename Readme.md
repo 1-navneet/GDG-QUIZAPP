@@ -1,37 +1,37 @@
-# ðŸ§  Interactive Quiz App
+# Interactive Quiz App
 
 **Google Developer Club Tech Department Assignment**  
 *Submitted by: Navneet Kumar*  
 *Newton School of Technology - Computer Science*
 
-## ðŸŽ¯ Project Overview
+## Project Overview
 
 A modern, interactive quiz application built with vanilla HTML, CSS, and JavaScript. This project demonstrates proficiency in frontend development, responsive design, and modern web technologies while delivering an engaging user experience.
 
 **Live Demo:** [Your Deployed URL Here]  
-**GitHub Repository:** [Your GitHub Repo URL Here]
+**GitHub Repository:** https://github.com/1-navneet/GDG-QUIZAPP
 
-## âœ¨ Features Implemented
-
-### ðŸ“‹ Core Requirements âœ…
+## Features Implemented
+### Core Requirements ✅
+ 
 - **10 Multiple-Choice Questions** loaded from JSON file
 - **15-Second Timer** per question with visual countdown
 - **Score Tracking** with comprehensive final results
 - **Responsive Design** optimized for all devices
 - **Clean User Interface** with modern design principles
 
-### â­ Bonus Features Implemented
-- **ðŸ† High Scores System** with localStorage persistence
-- **ðŸ”€ Question Shuffling** for unique quiz experience each time  
-- **ðŸ“Š Progress Bar** showing real-time completion status
-- **ðŸŒ™ Dark/Light Theme Toggle** for user preference
-- **âŒ¨ï¸ Keyboard Navigation** (1-4 keys for options, Enter for next)
-- **ðŸŽ¨ Smooth Animations** and transitions throughout
-- **ðŸ“± Mobile-First Design** with touch-friendly interface
-- **â±ï¸ Performance Tracking** including completion time
-- **ðŸŽ‰ Dynamic Feedback** with motivational messages
+### Bonus Features Implemented
+- **High Scores System** with localStorage persistence
+- **Question Shuffling** for unique quiz experience each time  
+- **Progress Bar** showing real-time completion status
+- **Dark/Light Theme Toggle** for user preference
+- **Keyboard Navigation** (1-4 keys for options, Enter for next)
+- **Smooth Animations** and transitions throughout
+- **Mobile-First Design** with touch-friendly interface
+- **Performance Tracking** including completion time
+- **Dynamic Feedback** with motivational messages
 
-## ðŸ› ï¸ Technologies Used
+## Technologies Used
 
 - **HTML5** - Semantic markup and accessibility
 - **CSS3** - Modern styling with CSS Variables, Grid, and Flexbox
@@ -40,7 +40,7 @@ A modern, interactive quiz application built with vanilla HTML, CSS, and JavaScr
 - **JSON** - Dynamic question loading
 - **Responsive Design** - Mobile-first approach
 
-## ðŸš€ Getting Started
+## Getting Started
 
 ### Prerequisites
 - Modern web browser (Chrome, Firefox, Safari, Edge)
@@ -49,8 +49,8 @@ A modern, interactive quiz application built with vanilla HTML, CSS, and JavaScr
 ### Installation & Setup
 1. **Clone the repository**
    ```bash
-   git clone [your-repo-url]
-   cd quiz-app
+   git clone https://github.com/1-navneet/GDG-QUIZAPP.git
+   cd GDG-QUIZAPP
    ```
 
 2. **Open locally**
@@ -63,21 +63,21 @@ A modern, interactive quiz application built with vanilla HTML, CSS, and JavaScr
    # Visit: http://localhost:8000
    ```
 
-3. **Start quizzing!** ðŸŽ‰
+3. **Start quizzing!**
 
-## ðŸ“ Project Structure
+## Project Structure
 
 ```
 quiz-app/
-â”œâ”€â”€ index.html          # Main HTML structure
-â”œâ”€â”€ style.css           # Styling and responsive design  
-â”œâ”€â”€ script.js           # Quiz logic and functionality
-â”œâ”€â”€ questions.json      # Question database (optional)
-â”œâ”€â”€ README.md          # Project documentation
-â””â”€â”€ screenshots/       # Demo images (optional)
+index.html          # Main HTML structure
+style.css           # Styling and responsive design  
+script.js           # Quiz logic and functionality
+questions.json      # Question database (optional)
+README.md          # Project documentation
+screenshots/       # Demo images (optional)
 ```
 
-## ðŸŽ® How to Use
+## How to Use
 
 1. **Start Quiz** - Click any option to begin
 2. **Navigate** - Use mouse clicks or keyboard (1-4 keys)
@@ -87,7 +87,7 @@ quiz-app/
 6. **High Scores** - Check leaderboard and beat your best
 7. **Themes** - Toggle between light and dark modes
 
-## ðŸ’» Code Highlights
+## Code Highlights
 
 ### Object-Oriented Architecture
 ```javascript
@@ -118,7 +118,7 @@ saveHighScore(percentage, timeTaken) {
 }
 ```
 
-## ðŸŒŸ Key Technical Achievements
+## Key Technical Achievements
 
 - **Zero Dependencies** - Pure vanilla JavaScript
 - **100% Responsive** - Works perfectly on all screen sizes
@@ -128,18 +128,18 @@ saveHighScore(percentage, timeTaken) {
 - **Error Handling** - Graceful fallbacks for missing resources
 - **Cross-Browser Compatible** - Tested on all major browsers
 
-## ðŸ“± Browser Support
+## Browser Support
 
 | Browser | Version | Status |
 |---------|---------|---------|
-| Chrome | 80+ | âœ… Fully Supported |
-| Firefox | 75+ | âœ… Fully Supported |
-| Safari | 13+ | âœ… Fully Supported |
-| Edge | 80+ | âœ… Fully Supported |
+| Chrome | 80+ |  Fully Supported |
+| Firefox | 75+ |  Fully Supported |
+| Safari | 13+ |  Fully Supported |
+| Edge | 80+ | Fully Supported |
 
-## ðŸš€ Deployment
+## Deployment
 
-This app is deployed on **[Vercel/Netlify]** with automatic deployments from GitHub.
+This app is deployed on **Vercel** with automatic deployments from GitHub.
 
 ### Deploy Your Own
 ```bash
@@ -152,17 +152,17 @@ npm i -g netlify-cli
 netlify deploy
 ```
 
-## ðŸ§ª Testing
+## Testing
 
 ### Manual Testing Checklist
-- âœ… Quiz loads without errors
-- âœ… Timer counts down correctly
-- âœ… Questions shuffle on restart
-- âœ… Scoring calculates accurately
-- âœ… High scores save and display
-- âœ… Theme toggle works
-- âœ… Mobile responsive
-- âœ… Keyboard navigation functional
+- Quiz loads without errors
+- Timer counts down correctly
+- Questions shuffle on restart
+- Scoring calculates accurately
+- High scores save and display
+- Theme toggle works
+- Mobile responsive
+- Keyboard navigation functional
 
 ### Console Testing
 ```javascript
@@ -171,16 +171,16 @@ window.quiz.score; // Check current score
 localStorage.getItem('quizHighScores'); // Check saved scores
 ```
 
-## ðŸ“ˆ Future Enhancements
+## Future Enhancements
 
-- ðŸŒ Multiple quiz categories
-- ðŸ”Š Sound effects and music
-- ðŸ… Achievement system
-- ðŸ‘¥ Multiplayer mode
-- ðŸ“Š Analytics dashboard
-- ðŸŒ Multi-language support
+- Multiple quiz categories
+- Sound effects and music
+- Achievement system
+- Multiplayer mode
+- Analytics dashboard
+- Multi-language support
 
-## ðŸŽ“ Learning Outcomes
+## Learning Outcomes
 
 This project demonstrates:
 - **Frontend Development** skills with modern JavaScript
@@ -190,7 +190,7 @@ This project demonstrates:
 - **Code Organization** with object-oriented programming
 - **Project Management** from concept to deployment
 
-## ðŸ’¡ Why I Chose This Project
+## Why I Chose This Project
 
 As a first-year Computer Science student with a strong interest in both frontend and backend development, this quiz app allowed me to:
 
@@ -200,29 +200,29 @@ As a first-year Computer Science student with a strong interest in both frontend
 4. **Complete Within Timeline** - Delivering a polished product on schedule
 5. **Add Portfolio Value** - Professional-quality project for future opportunities
 
-## ðŸ‘¨â€ðŸ’» About the Developer
+## About the Developer
 
 **Navneet Kumar**  
 First-Year Computer Science Student | Newton School of Technology
 
-- ðŸŽ¯ **Interests:** Software Development, AI, Backend Systems
-- ðŸ’¼ **Recent:** Smart India Hackathon Backend Developer  
-- ðŸ› ï¸ **Skills:** Python, JavaScript, Flask, HTML/CSS
-- ðŸŒ± **Learning:** Full-stack development and competitive programming
+- **Interests:** Software Development, AI, Backend Systems
+- **Recent:** Smart India Hackathon Backend Developer  
+- **Skills:** Python, JavaScript, Flask, HTML/CSS
+- **Learning:** Full-stack development and competitive programming
 
-## ðŸ“ž Contact & Links
+## Contact & Links
 
-- **GitHub:** [Your GitHub Profile]
+- **GitHub:** https://github.com/1-navneet
 - **LinkedIn:** [Your LinkedIn Profile]  
 - **Email:** [Your Email]
 - **Portfolio:** [Your Portfolio Website]
 
-## ðŸ“„ License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-**â­ If you found this project helpful, please give it a star!**
+**⭐ If you found this project helpful, please give it a star!**
 
-*Built with â¤ï¸ for Google Developer Club Tech Department Assignment*
+*Built for Google Developer Club Tech Department Assignment*
